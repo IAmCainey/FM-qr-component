@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d5e1ef;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: solid 1px #979797 center;
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.477);
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.qr {
+  background: #3685ff;
+  border-radius: 10px;
+  margin: 16px 16px 24px 16px;
+  width: auto;
+  height: 288px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+
+  .qr-image {
+    z-index: 10;
+  }
+
+  .oval {
+    position: absolute;
+  }
+
+  .oval-1 {
+    top: 0;
+    left: 0;
+  }
+
+  .oval-2 {
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.content {
+  padding: 0 16px 40px 16px;
+  font-family: "Outfit", sans-serif;
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+    color: #1f314f;
+    height: auto;
+    font-weight: bold;
+  }
+
+  p {
+    padding-top: 16px;
+    font-size: 15px;
+    text-align: center;
+    color: #7d889e;
+    letter-spacing: 0.19px;
+  }
+}

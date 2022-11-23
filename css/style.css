@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #d5e1ef;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  border: solid 1px #979797 center;
+  -webkit-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.477);
+          box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.477);
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.qr {
+  background: #3685ff;
+  border-radius: 10px;
+  margin: 16px 16px 24px 16px;
+  width: auto;
+  height: 288px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.qr .qr-image {
+  z-index: 10;
+}
+
+.qr .oval {
+  position: absolute;
+}
+
+.qr .oval-1 {
+  top: 0;
+  left: 0;
+}
+
+.qr .oval-2 {
+  bottom: 0;
+  right: 0;
+}
+
+.content {
+  padding: 0 16px 40px 16px;
+  font-family: "Outfit", sans-serif;
+}
+
+.content h1 {
+  font-size: 22px;
+  text-align: center;
+  color: #1f314f;
+  height: auto;
+  font-weight: bold;
+}
+
+.content p {
+  padding-top: 16px;
+  font-size: 15px;
+  text-align: center;
+  color: #7d889e;
+  letter-spacing: 0.19px;
+}
+/*# sourceMappingURL=style.css.map */
