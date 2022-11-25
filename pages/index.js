@@ -20,9 +20,9 @@ export default function HomePage() {
       <div className="container">
         <div className="component">
           <div className="qr">
-            <Image className="oval oval-1" src={Oval}></Image>
-            <Image className="oval oval-2" src={Oval2}></Image>
-            <Image className="qr-image" src={Qr}></Image>
+            <Image className="oval oval-1" src={Oval} alt=""></Image>
+            <Image className="oval oval-2" src={Oval2} alt=""></Image>
+            <Image className="qr-image" src={Qr} alt=""></Image>
           </div>
           <div className="content">
             <h1>Improve your front-end skills by building projects</h1>
